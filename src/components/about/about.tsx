@@ -1,4 +1,5 @@
+import styles from "./about.module.css";
 function About() {
-  return <section>about</section>;
+  return <section className={styles.section}>about</section>;
 }
 export default About;

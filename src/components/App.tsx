@@ -1,27 +1,22 @@
-import Navbar from "./Navbar/Navbar";
-import About from "./about/About";
+import Navbar from "./Navbar/navBar";
+import About from "./about/about";
 //import Card from "./card/Card";
-import Contact from "./contact/Contact";
-import Footer from "./footer/Footer";
-import Home from "./home/Home";
-import Project from "./projects/Project";
-import Skill from "./skills/Skill";
+import Contact from "./contact/contact";
+import Footer from "./footer/footer";
+import Home from "./home/home";
+import Project from "./project/project";
+import Skill from "./skill/skill";
 function App() {
   return (
-    <>
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <Home />
-        <About />
-        <Skill />
-        <Project />
-
-        <Contact />
-        <Footer />
-      </main>
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skill />
+      <Project />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 export default App;

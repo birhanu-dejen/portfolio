@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(0, 21, 255);
+  margin-left: 100px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px, 20px;
+  justify-content: space-between;
+  background-color: #fcfcfc;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+}
+/*<div className={styles.logo}>logo</div>*/
+.navButtons {
+  font-size: 20px;
+  margin-right: 100px;
+  display: flex;
+  gap: 40px;
+}
