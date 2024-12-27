@@ -1,4 +1,4 @@
 function Skill() {
-  return <section>skill</section>;
+  return <section>skills</section>;
 }
 export default Skill;
