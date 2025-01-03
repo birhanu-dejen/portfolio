@@ -1,4 +1,4 @@
 function Card() {
-  return <section>card</section>;
+  return <section>reusabe card</section>;
 }
 export default Card;

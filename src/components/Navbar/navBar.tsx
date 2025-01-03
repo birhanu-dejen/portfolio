@@ -6,6 +6,7 @@ const Navbar: React.FC = () => {
   return (
     <div className={styles.nav}>
       <div className={styles.title}> Birhanu Dejen</div>
+      <div className={styles.title}> Fullstack Developer</div>
       <div className={styles.navButtons}>
         {links.map((element, index) => {
           return (
