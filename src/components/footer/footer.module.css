@@ -1,37 +1,10 @@
-/* Footer container */
 .footer {
-  background-color: #202c39; /* Light background color */
-  padding: 20px; /* Spacing around the content */
-  text-align: center; /* Center the text */
+  background-color: #202c39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
 }
-
-/* Style for the links */
-.link {
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-  margin: 10px; /* Spacing between links */
-  display: inline-flex; /* Flexbox for alignment */
-  align-items: center; /* Center items vertically */
-}
-
-/* Change link color on hover */
-.link:hover {
-  color: #0056b3; /* Darker link color on hover */
-}
-
-/* Style for the SVG icons */
-.icon {
-  margin-right: 8px; /* Space between icon and text */
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  .footer {
-    padding: 10px; /* Less padding on smaller screens */
-  }
-
-  .link {
-    display: block; /* Stack links vertically */
-    margin: 5px 0; /* Vertical spacing */
-  }
+.copyright {
+  color: rgb(202, 196, 196);
 }
