@@ -1,8 +1,10 @@
+import styles from "./project.module.css";
+import Card from "../card/card";
 function Project() {
   return (
     <section>
       projects
-      <div>reusable card</div>
+      <Card />
       <div>show more button</div>
     </section>
   );

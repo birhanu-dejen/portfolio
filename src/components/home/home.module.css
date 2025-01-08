@@ -5,7 +5,9 @@
   height: 67vh;
   padding-top: 30px;
 }
-
+.aboutme {
+  color: rgb(19, 3, 55);
+}
 img {
   max-width: calc(100% - 40px); /* Adjust width to allow space on both sides */
   max-height: 85%; /* Ensure image doesn't exceed container height */
