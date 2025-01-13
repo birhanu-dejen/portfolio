@@ -1,14 +1,15 @@
 /* skill.module.css */
 
 .intro {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 20px;
-  color: #555;
+  color: #0c0505;
 }
 
 .skillsList {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -22,4 +23,7 @@
 .icon {
   width: 48px;
   height: 48px;
+}
+.skill_section {
+  background-color: #4b5563;
 }

@@ -1,41 +1,45 @@
 import styles from "./skill.module.css";
+
 const skills = [
   {
-    name: "Node.js",
-    icon: "https://img.icons8.com/color/48/000000/nodejs.png",
+    name: "Typescript",
+    icon: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
   },
   {
-    name: "React.js",
-    icon: "https://img.icons8.com/color/48/000000/react-native.png",
+    name: "NodeJs",
+    icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+  },
+
+  {
+    name: "Mongo DB",
+    icon: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
   },
   {
-    name: "React Native",
-    icon: "https://img.icons8.com/color/48/000000/react-native.png",
+    name: "Postgres",
+    icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
   },
   {
-    name: "PostgreSQL",
-    icon: "https://img.icons8.com/color/48/000000/postgresql.png",
+    name: "React",
+    icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
   },
-  { name: "Python", icon: "https://img.icons8.com/color/48/000000/python.png" },
+
   {
-    name: "MongoDB",
-    icon: "https://img.icons8.com/color/48/000000/mongodb.png",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "https://img.icons8.com/color/48/000000/tailwindcss.png",
+    name: "Firebase",
+    icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
   },
   {
-    name: "TypeScript",
-    icon: "https://img.icons8.com/color/48/000000/typescript.png",
+    name: "Python",
+    icon: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
   },
-  { name: "Rust", icon: "https://img.icons8.com/color/48/000000/rust.png" },
-  { name: "API", icon: "https://img.icons8.com/color/48/000000/api.png" },
-  { name: "Git", icon: "https://img.icons8.com/color/48/000000/git.png" }, // Added Git
+  {
+    name: "AWS",
+    icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+  },
 ];
+
 function Skill() {
   return (
-    <section>
+    <section className={styles.skill_section}>
       <h2>Skills</h2>
       <div className={styles.intro}>
         I have expertise in technologies such as React, Node, Python, and I also
@@ -44,13 +48,13 @@ function Skill() {
       </div>
       <div className={styles.skillsList}>
         {skills.map((skill, index) => (
-          <div key={index} className={styles.skill}>
+          <span key={index} className={styles.skill}>
             <img
               src={skill.icon}
               alt={`${skill.name} icon`}
               className={styles.icon}
             />
-          </div>
+          </span>
         ))}
       </div>
     </section>
