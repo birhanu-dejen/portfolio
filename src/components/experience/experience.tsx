@@ -1,7 +1,6 @@
-import styles from "./experience.module.css";
 function About() {
   return (
-    <section className={styles.section}>
+    <section>
       <h2>Experience</h2>
       <p>Sept 2022 - present</p>
       <h4>John Snow, Inc. - Software Engineer</h4>

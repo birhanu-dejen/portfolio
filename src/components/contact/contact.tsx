@@ -1,14 +1,8 @@
-import styles from "./contact.module.css";
-
 function Contact() {
   return (
-    <section className={styles.footer}>
-      <a
-        className={styles.link}
-        target="_blank"
-        href="https://wa.me/251903802215"
-      >
-        <span className={styles.icon}>
+    <section>
+      <a target="_blank" href="https://wa.me/251903802215">
+        <span>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -23,12 +17,8 @@ function Contact() {
         </span>
         +251903802215
       </a>
-      <a
-        className={styles.link}
-        target="_blank"
-        href="mailto:birhanudejen@gmail.com"
-      >
-        <span className={styles.icon}>
+      <a target="_blank" href="mailto:birhanudejen@gmail.com">
+        <span>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -45,12 +35,8 @@ function Contact() {
         </span>
         birhanudejen617@gmail.com
       </a>
-      <a
-        className={styles.link}
-        target="_blank"
-        href="https://linkedin.com/in/birhanu-dejen"
-      >
-        <span className={styles.icon}>
+      <a target="_blank" href="https://linkedin.com/in/birhanu-dejen">
+        <span>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -65,12 +51,8 @@ function Contact() {
         </span>
         /in/birhanu-dejen
       </a>
-      <a
-        className={styles.link}
-        target="_blank"
-        href="https://github.com/birhanu-dejen"
-      >
-        <span className={styles.icon}>
+      <a target="_blank" href="https://github.com/birhanu-dejen">
+        <span>
           <svg
             stroke="currentColor"
             fill="currentColor"

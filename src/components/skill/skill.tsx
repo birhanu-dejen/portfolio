@@ -1,5 +1,3 @@
-import styles from "./skill.module.css";
-
 const skills = [
   {
     name: "Typescript",
@@ -39,21 +37,17 @@ const skills = [
 
 function Skill() {
   return (
-    <section className={styles.skill_section}>
+    <section>
       <h2>Skills</h2>
-      <div className={styles.intro}>
+      <div>
         I have expertise in technologies such as React, Node, Python, and I also
         have experience in other tech stacks. and always eager to learn new
         technologies.
       </div>
-      <div className={styles.skillsList}>
+      <div>
         {skills.map((skill, index) => (
-          <span key={index} className={styles.skill}>
-            <img
-              src={skill.icon}
-              alt={`${skill.name} icon`}
-              className={styles.icon}
-            />
+          <span key={index}>
+            <img src={skill.icon} alt={`${skill.name} icon`} />
           </span>
         ))}
       </div>

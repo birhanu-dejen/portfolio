@@ -1,4 +1,3 @@
-import styles from "./project.module.css";
 import Card from "../card/card";
 function Project() {
   return (
