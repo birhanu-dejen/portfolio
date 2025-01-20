@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section>
+    <div className="flex items-center justify-center gap-24">
       <a target="_blank" href="https://wa.me/251903802215">
         <span>
           <svg
@@ -67,7 +67,7 @@ function Contact() {
         </span>
         birhanu-dejen
       </a>
-    </section>
+    </div>
   );
 }
 export default Contact;

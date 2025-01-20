@@ -37,21 +37,21 @@ const skills = [
 
 function Skill() {
   return (
-    <section>
-      <h2>Skills</h2>
-      <div>
+    <div>
+      <h1 className="ml-9 mb-4">Skills</h1>
+      <div className="ml-9 ">
         I have expertise in technologies such as React, Node, Python, and I also
         have experience in other tech stacks. and always eager to learn new
         technologies.
       </div>
-      <div>
+      <div className="flex justify-evenly ">
         {skills.map((skill, index) => (
           <span key={index}>
             <img src={skill.icon} alt={`${skill.name} icon`} />
           </span>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
 export default Skill;
