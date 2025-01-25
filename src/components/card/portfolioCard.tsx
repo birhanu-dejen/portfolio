@@ -1,27 +1,24 @@
 import projectimage from "../../assets/project1..png";
-
+const tech = ["React", "Next.Js", "GraphQL", "Postgres"];
 function Card() {
-  //for div containg image
-  //border
-  //border radius
-  //box shadow
-  //max width
-  //display
-  //for image element
-  //max-width
-  //height auto
-  //border radious 50%
   return (
-    <div className="w-96 border-2 border-white-600">
-      <img className="w-full h-60 " src={projectimage} alt="project image" />
-      <div>
+    <div className="rounded-lg border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col transition-transform duration-300 ">
+      <img
+        className="w-full max-h-48 object-cover "
+        src={projectimage}
+        alt="project image"
+        width={400}
+        height={300}
+        loading="lazy"
+      />
+      <div className="px-3 py-2 mb-auto flex-grow">
         <div>
-          <h2>ecomerce website</h2>
-          <div class="text-md  flex flex-row">
+          <span className="font-semibold text-md">ecomerce website</span>
+          <div className="text-md  flex flex-row justify-end">
             <a
               href="https://finovo.vernu.dev"
               rel="noopener noreferrer"
-              class="px-1 underline hover:text-cyan-500"
+              className="px-1 underline hover:text-cyan-500"
               target="_blank"
             >
               <svg
@@ -40,7 +37,7 @@ function Card() {
             <a
               href="https://github.com/vernu/finovo"
               rel="noopener noreferrer"
-              class="px-1 underline hover:text-cyan-500"
+              className="px-1 underline hover:text-cyan-500"
               target="_blank"
             >
               <svg
@@ -56,13 +53,22 @@ function Card() {
               </svg>
             </a>
           </div>
-          <p>
+          <p className="text-sm text-justify font-[100]">
             {
               "this is my first real world project using mernstack and i sucessfully conterbuted to on both front end and the backend"
             }
           </p>
         </div>
-        <h3> #react js #node js #mongodb tailwind-css </h3>
+        <div className="px-3 py-4 font-[200]">
+          {tech.map((item) => (
+            <span
+              key={1}
+              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-xs mr-1 text-cyan-200"
+            >
+              #{item}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );

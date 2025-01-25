@@ -1,16 +1,11 @@
-function About() {
+import ExperianceCard from "../card/experianceCard";
+
+function Experience() {
   return (
-    <section>
-      <h2>Experience</h2>
-      <p>Sept 2022 - present</p>
-      <h4>John Snow, Inc. - Software Engineer</h4>
-      <ul>
-        <li>
-          Worked on a budget-tool platform, A platform to manage budgets for the
-          company's various projects worldwide.
-        </li>
-      </ul>
-    </section>
+    <div>
+      <h2 className="text-2xl font-semibold">Experience</h2>
+      <ExperianceCard />
+    </div>
   );
 }
-export default About;
+export default Experience;
