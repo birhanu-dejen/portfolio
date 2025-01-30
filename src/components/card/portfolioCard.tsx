@@ -2,7 +2,10 @@ import projectimage from "../../assets/project1..png";
 const tech = ["React", "Next.Js", "GraphQL", "Postgres"];
 function Card() {
   return (
-    <div className="rounded-lg border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col transition-transform duration-300 ">
+    <div
+      className="rounded-md border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col
+     md:hover: drop-shadow-lg cursor-pointer md:hover:shadow-xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px] "
+    >
       <img
         className="w-full max-h-48 object-cover "
         src={projectimage}
@@ -13,7 +16,9 @@ function Card() {
       />
       <div className="px-3 py-2 mb-auto flex-grow">
         <div>
-          <span className="font-semibold text-md">ecomerce website</span>
+          <span className="font-semibold text-lg  text-gray-600">
+            eCComerce
+          </span>
           <div className="text-md  flex flex-row justify-end">
             <a
               href="https://finovo.vernu.dev"
@@ -53,7 +58,7 @@ function Card() {
               </svg>
             </a>
           </div>
-          <p className="text-sm text-justify font-[100]">
+          <p className="text-md text-justify font-[100] text-gray-800">
             {
               "this is my first real world project using mernstack and i sucessfully conterbuted to on both front end and the backend"
             }
@@ -63,7 +68,7 @@ function Card() {
           {tech.map((item) => (
             <span
               key={1}
-              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-xs mr-1 text-cyan-200"
+              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-xs mr-1 text-blue-900"
             >
               #{item}
             </span>

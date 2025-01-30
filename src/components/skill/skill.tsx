@@ -29,29 +29,37 @@ const skills = [
     name: "Python",
     icon: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
   },
-  {
-    name: "AWS",
-    icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
-  },
 ];
 
 function Skill() {
   return (
-    <div>
-      <h1 className="ml-9 mb-4">Skills</h1>
-      <div className="ml-9 ">
-        I have expertise in technologies such as React, Node, Python, and I also
-        have experience in other tech stacks. and always eager to learn new
-        technologies.
+    <section id="Skills" className="py-4  ">
+      <div className="container px-4 mx-auto ">
+        <h1 className=" text-2xl font-semibold">Skills</h1>
+        <div className="text-justify mb-4 text-lg">
+          I have expertise in technologies such as React, Node, Python, and I
+          also have experience in other tech stacks. and always eager to learn
+          new technologies.
+        </div>
+        <div className="flex  flex-row justify-between ">
+          {skills.map((skill, index) => (
+            <span
+              key={index}
+              className="flex items-center justify-center w-9 h-9 rounded-full shadow-xl"
+            >
+              <img
+                src={skill.icon}
+                alt={`${skill.name} icon`}
+                loading="lazy"
+                width={26}
+                height={26}
+                className="hover:grayscale"
+              />
+            </span>
+          ))}
+        </div>
       </div>
-      <div className="flex justify-evenly ">
-        {skills.map((skill, index) => (
-          <span key={index}>
-            <img src={skill.icon} alt={`${skill.name} icon`} />
-          </span>
-        ))}
-      </div>
-    </div>
+    </section>
   );
 }
 export default Skill;
