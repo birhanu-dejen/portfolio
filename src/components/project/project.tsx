@@ -3,11 +3,11 @@ function Project() {
   return (
     <section id="Projects">
       <div
-        className="flex flex-col px-4 mx-auto
+        className="container px-4 mx-auto
     "
       >
-        <h1 className="ml-9 mb-4 text-2xl font-semibold"> projects</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 ">
+        <h1 className=" mb-4 text-2xl font-semibold"> projects</h1>
+        <div className="grid grid-cols-3  gap-6">
           <Card />
 
           <Card />

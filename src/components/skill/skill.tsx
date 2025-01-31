@@ -33,7 +33,7 @@ const skills = [
 
 function Skill() {
   return (
-    <section id="Skills" className="py-4  ">
+    <section id="Skills" className="py-10  ">
       <div className="container px-4 mx-auto ">
         <h1 className=" text-2xl font-semibold">Skills</h1>
         <div className="text-justify mb-4 text-lg">

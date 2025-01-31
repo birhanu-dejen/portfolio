@@ -1,7 +1,7 @@
 import background_image from "../../assets/home-background.webp";
 function Home() {
   return (
-    <section id="Home" className="py-16">
+    <section id="Home" className="pt-12 pb-6">
       <div className="container mx-auto px-20 bg-blue-900 py-20 text-gray-200">
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
           <div className="container mx-auto text-base/6  tracking-tight">

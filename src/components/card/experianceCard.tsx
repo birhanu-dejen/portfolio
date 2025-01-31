@@ -2,8 +2,8 @@ function ExperianceCard() {
   return (
     <div className="flex flex-col flex-start pt-3  pl-3">
       <div className="flex-start flex items-center pt-3">
+        <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-500"></div>
         May 2023 - Sept 2023
-        <div></div>
       </div>
       <h4 className="mb-1.5 text-xl font-semibold">
         ABStore Full-stack Developer

@@ -3,8 +3,8 @@ const tech = ["React", "Next.Js", "GraphQL", "Postgres"];
 function Card() {
   return (
     <div
-      className="rounded-md border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col
-     md:hover: drop-shadow-lg cursor-pointer md:hover:shadow-xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px] "
+      className="rounded-lg border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col
+     md:hover: drop-shadow-lg cursor-pointer md:hover:shadow-2xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px] "
     >
       <img
         className="w-full max-h-48 object-cover "
@@ -14,11 +14,9 @@ function Card() {
         height={300}
         loading="lazy"
       />
-      <div className="px-3 py-2 mb-auto flex-grow">
+      <div className="px-3 py-2 mb-auto flex-grow bg-blue-900 ">
         <div>
-          <span className="font-semibold text-lg  text-gray-600">
-            eCComerce
-          </span>
+          <span className="font-semibold text-lg  text-white">eCComerce</span>
           <div className="text-md  flex flex-row justify-end">
             <a
               href="https://finovo.vernu.dev"
@@ -28,7 +26,7 @@ function Card() {
             >
               <svg
                 stroke="currentColor"
-                fill="currentColor"
+                fill="white"
                 stroke-width="0"
                 viewBox="0 0 24 24"
                 height="1em"
@@ -42,12 +40,12 @@ function Card() {
             <a
               href="https://github.com/vernu/finovo"
               rel="noopener noreferrer"
-              className="px-1 underline hover:text-cyan-500"
+              className="px-1 underline  hover:text-cyan-500"
               target="_blank"
             >
               <svg
                 stroke="currentColor"
-                fill="currentColor"
+                fill="white"
                 stroke-width="0"
                 viewBox="0 0 16 16"
                 height="1em"
@@ -58,7 +56,7 @@ function Card() {
               </svg>
             </a>
           </div>
-          <p className="text-md text-justify font-[100] text-gray-800">
+          <p className="text-md text-justify font-[100] text-white">
             {
               "this is my first real world project using mernstack and i sucessfully conterbuted to on both front end and the backend"
             }
@@ -68,7 +66,7 @@ function Card() {
           {tech.map((item) => (
             <span
               key={1}
-              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-xs mr-1 text-blue-900"
+              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-sm mr-1 text-gray-100"
             >
               #{item}
             </span>
