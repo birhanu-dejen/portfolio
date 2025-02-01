@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="Contact-Me" className="py-6 text-gray-900 ">
+    <section id="Contact-Me" className="py-5 text-gray-900 ">
       <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-24 container px-4 mx-auto ">
         <a target="_blank" href="https://wa.me/251903802215">
           <span>

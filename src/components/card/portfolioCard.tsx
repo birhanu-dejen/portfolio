@@ -66,7 +66,7 @@ function Card() {
           {tech.map((item) => (
             <span
               key={1}
-              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-sm mr-1 text-gray-100"
+              className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-sm mr-1 text-blue-300"
             >
               #{item}
             </span>

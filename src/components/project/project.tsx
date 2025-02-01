@@ -14,7 +14,9 @@ function Project() {
           <Card />
         </div>
         <div className=" p-4 flex items-center justify-center">
-          <button>show more</button>
+          <button className="text-black font-[100px] text-[18px] hover:text-blue-900">
+            show more
+          </button>
         </div>
       </div>
     </section>
