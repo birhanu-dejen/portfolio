@@ -7,7 +7,7 @@ function Project() {
     "
       >
         <h1 className=" mb-4 text-2xl font-semibold"> projects</h1>
-        <div className="grid grid-cols-3  gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-4 mt-4">
           <Card />
 
           <Card />

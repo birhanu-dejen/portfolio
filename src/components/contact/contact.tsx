@@ -1,12 +1,12 @@
 function Contact() {
   return (
-    <section id="Contact-Me" className="py-6">
-      <div className="flex items-center justify-center gap-24">
+    <section id="Contact-Me" className="py-6 text-gray-900 ">
+      <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-24 container px-4 mx-auto ">
         <a target="_blank" href="https://wa.me/251903802215">
           <span>
             <svg
               stroke="currentColor"
-              fill="rgb(4 120 87 / var(--tw-bg-opacity, 1))"
+              fill="currentColor"
               stroke-width="0"
               viewBox="0 0 16 16"
               height="1em"
@@ -22,7 +22,7 @@ function Contact() {
           <span>
             <svg
               stroke="currentColor"
-              fill="rgb(4 120 87 / var(--tw-bg-opacity, 1))"
+              fill="currentColor"
               stroke-width="0"
               version="1.1"
               viewBox="0 0 17 17"
@@ -40,7 +40,7 @@ function Contact() {
           <span>
             <svg
               stroke="currentColor"
-              fill="rgb(4 120 87 / var(--tw-bg-opacity, 1))"
+              fill="currentColor"
               stroke-width="0"
               viewBox="0 0 16 16"
               height="1em"
@@ -56,7 +56,7 @@ function Contact() {
           <span>
             <svg
               stroke="currentColor"
-              fill="rgb(4 120 87 / var(--tw-bg-opacity, 1))"
+              fill="currentColor"
               stroke-width="0"
               viewBox="0 0 16 16"
               height="1em"
@@ -74,7 +74,7 @@ function Contact() {
         >
           <span>
             <svg
-              fill="rgb(4 120 87 / var(--tw-bg-opacity, 1))"
+              fill="currentColor"
               width="1em"
               height="1em"
               viewBox="0 0 32 32"

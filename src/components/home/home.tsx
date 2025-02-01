@@ -1,14 +1,14 @@
 import background_image from "../../assets/home-background.webp";
 function Home() {
   return (
-    <section id="Home" className="pt-12 pb-6">
-      <div className="container mx-auto px-20 bg-blue-900 py-20 text-gray-200">
+    <section id="Home" className="py-16">
+      <div className="container mx-auto px-16 bg-blue-900 py-32 text-gray-200 rounded-2xl">
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="container mx-auto text-base/6  tracking-tight">
+          <div className="container mx-auto text-base/6  tracking-tight ">
             <h2>
               Hi 👋, It's <span>Birhanu Dejen</span>
             </h2>
-            <div className="text-white text-lg">
+            <div className="text-white text-lg container mx-auto">
               I'm a Full-stack developer based in Addis Ababa ,Ethiopia
               <br /> <br />I have experience in developing web applications
               using modern technologies. Proficient in both front-end and

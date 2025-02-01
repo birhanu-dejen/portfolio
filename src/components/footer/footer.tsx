@@ -1,8 +1,10 @@
 function Footer() {
   return (
-    <footer className="flex justify-center px-6 py-8">
-      <span>© 2025 No rights reserved</span>
-    </footer>
+    <section>
+      <footer className="flex justify-center px-6 py-8 ">
+        <span className="text-gray-900 ">© 2025 No rights reserved</span>
+      </footer>
+    </section>
   );
 }
 export default Footer;
