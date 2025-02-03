@@ -5,14 +5,14 @@ import Footer from "./footer/footer";
 import Contact from "./contact/contact";
 import Home from "./home/home";
 import Project from "./project/project";
-import Skill from "./skill/skill";
+import Skills from "./skill/skill";
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
 
-      <Skill />
+      <Skills />
       <Project />
       <Experience />
       <Contact />

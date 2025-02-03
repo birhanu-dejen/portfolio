@@ -1,7 +1,7 @@
 import adminImg from "../assets/abAdmin.png";
 import userImg from "../assets/abUser.png";
-import { Project } from "./types";
-export const projects: Project[] = [
+import { IProject } from "./types";
+export const projects: IProject[] = [
   {
     title: "eCComerce",
     description:

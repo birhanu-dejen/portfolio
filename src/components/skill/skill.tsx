@@ -1,37 +1,9 @@
-const skills = [
-  {
-    name: "Typescript",
-    icon: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
-  },
-  {
-    name: "NodeJs",
-    icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
-  },
-
-  {
-    name: "Mongo DB",
-    icon: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
-  },
-  {
-    name: "Postgres",
-    icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
-  },
-  {
-    name: "React",
-    icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-  },
-
-  {
-    name: "Firebase",
-    icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-  },
-  {
-    name: "Python",
-    icon: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
-  },
-];
-
-function Skill() {
+import { skills } from "../../data/skills";
+import { ISkill } from "../../data/types";
+interface skilsList {
+  skill: ISkill[];
+}
+function Skills() {
   return (
     <section id="Skills" className="pb-20 pt-3 ">
       <div className="container px-4 mx-auto ">
@@ -62,4 +34,4 @@ function Skill() {
     </section>
   );
 }
-export default Skill;
+export default Skills;
