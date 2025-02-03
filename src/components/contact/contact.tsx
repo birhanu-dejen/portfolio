@@ -7,7 +7,7 @@ function Contact() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 16 16"
               height="1em"
               width="1em"
@@ -23,7 +23,7 @@ function Contact() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               version="1.1"
               viewBox="0 0 17 17"
               height="1em"
@@ -41,7 +41,7 @@ function Contact() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 16 16"
               height="1em"
               width="1em"
@@ -57,7 +57,7 @@ function Contact() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 16 16"
               height="1em"
               width="1em"

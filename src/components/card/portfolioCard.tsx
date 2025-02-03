@@ -1,6 +1,10 @@
-import projectimage from "../../assets/project1..png";
-const tech = ["React", "Next.Js", "GraphQL", "Postgres"];
-function Card() {
+import Project from "../../data/types";
+interface PortfolioCardProps {
+  project: Project;
+}
+
+function Card({ project }: PortfolioCardProps) {
+  const { title, description, tech, image, previewLink, githubLink } = project;
   return (
     <div
       className="rounded-lg border-solid border-[0.5px] border-gray-400 overflow-hidden flex flex-col
@@ -8,7 +12,7 @@ function Card() {
     >
       <img
         className="w-full max-h-48 object-cover "
-        src={projectimage}
+        src={image}
         alt="project image"
         width={400}
         height={300}
@@ -16,10 +20,10 @@ function Card() {
       />
       <div className="px-3 py-2 mb-auto flex-grow bg-blue-900 ">
         <div>
-          <span className="font-semibold text-lg  text-white">eCComerce</span>
+          <span className="font-semibold text-lg  text-white">{title}</span>
           <div className="text-md  flex flex-row justify-end">
             <a
-              href="https://finovo.vernu.dev"
+              href={previewLink}
               rel="noopener noreferrer"
               className="px-1 underline hover:text-cyan-500"
               target="_blank"
@@ -27,7 +31,7 @@ function Card() {
               <svg
                 stroke="currentColor"
                 fill="white"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 24 24"
                 height="1em"
                 width="1em"
@@ -38,7 +42,7 @@ function Card() {
               </svg>
             </a>
             <a
-              href="https://github.com/vernu/finovo"
+              href={githubLink}
               rel="noopener noreferrer"
               className="px-1 underline  hover:text-cyan-500"
               target="_blank"
@@ -46,7 +50,7 @@ function Card() {
               <svg
                 stroke="currentColor"
                 fill="white"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 16 16"
                 height="1em"
                 width="1em"
@@ -57,15 +61,13 @@ function Card() {
             </a>
           </div>
           <p className="text-md text-justify font-[100] text-white">
-            {
-              "this is my first real world project using mernstack and i sucessfully conterbuted to on both front end and the backend"
-            }
+            {description}
           </p>
         </div>
         <div className="px-3 py-4 font-[200]">
-          {tech.map((item) => (
+          {tech?.map((item: string) => (
             <span
-              key={1}
+              key={item}
               className="inline-block  border-gray-200 rounded-full pr-2 py-1 text-sm mr-1 text-blue-300"
             >
               #{item}

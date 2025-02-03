@@ -1,12 +1,12 @@
-import background_image from "../../assets/home-background.webp";
+import illustration from "../../assets/illustration.webp";
 function Home() {
   return (
     <section id="Home" className="py-16">
       <div className="container mx-auto px-16 bg-blue-900 py-32 text-gray-200 rounded-2xl">
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
           <div className="container mx-auto text-base/6  tracking-tight ">
-            <h2>
-              Hi 👋, It's <span>Birhanu Dejen</span>
+            <h2 className="text-2xl">
+              Hi 👋, It's <span className="text-[#00FFFF]">Birhanu Dejen</span>
             </h2>
             <div className="text-white text-lg container mx-auto">
               I'm a Full-stack developer based in Addis Ababa ,Ethiopia
@@ -20,7 +20,7 @@ function Home() {
           </div>
 
           <img
-            src={background_image}
+            src={illustration}
             alt="background"
             loading="lazy"
             width={500}
