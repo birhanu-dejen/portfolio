@@ -1,4 +1,4 @@
-function Footer() {
+function FooterSection() {
   return (
     <section>
       <footer className="flex justify-center px-6 py-8 ">
@@ -10,4 +10,4 @@ function Footer() {
     </section>
   );
 }
-export default Footer;
+export default FooterSection;

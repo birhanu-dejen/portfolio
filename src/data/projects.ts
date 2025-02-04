@@ -1,9 +1,10 @@
 import adminImg from "../assets/abAdmin.png";
 import userImg from "../assets/abUser.png";
+import finovoImg from "../assets/finovo.png";
 import { IProject } from "./types";
 export const projects: IProject[] = [
   {
-    title: "eCComerce",
+    title: "eCComerce ",
     description:
       "a digital platform that facilitates online buying and selling of goods and services.",
     image: userImg,
@@ -19,5 +20,14 @@ export const projects: IProject[] = [
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://",
     githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-admin-MERN",
+  },
+  {
+    title: "Finovo - Personal Finance Planner",
+    description:
+      "A personal finance planning, budgeting and management platform",
+    image: finovoImg,
+    tech: ["React", "Next.Js", "GraphQL", "Postgres"],
+    previewLink: "",
+    githubLink: "",
   },
 ];

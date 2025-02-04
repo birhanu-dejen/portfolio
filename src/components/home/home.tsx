@@ -1,6 +1,6 @@
 import illustration from "../../assets/illustration.webp";
 import AnimatedWrapper from "../../utils/animatedWarpper";
-function Home() {
+function HomeSection() {
   return (
     <AnimatedWrapper>
       <section id="Home" className="py-16">
@@ -12,12 +12,12 @@ function Home() {
                 <span className="text-[#00FFFF]">Birhanu Dejen</span>
               </h2>
               <div className="text-white text-lg container mx-auto">
-                I'm a Full-stack developer based in Addis Ababa ,Ethiopia
-                <br /> <br />I have experience in developing web applications
-                using modern technologies. Proficient in both front-end and
-                back-end development, with a strong understanding of
-                data-structure and algorithm , Passionate about creating clean,
-                efficient, and scalable code that delivers a great user
+                I'm a Junior Full-stack developer based in Addis Ababa ,Ethiopia
+                <br /> <br /> I have experience in developing web applications
+                using modern technologies. I am familiar with both front-end and
+                back-end development, and I possess a solid understanding of
+                data structures, algorithms, and database design. I am eager to
+                create clean, efficient, and scalable code that enhances user
                 experience.
               </div>
             </div>
@@ -37,4 +37,4 @@ function Home() {
     </AnimatedWrapper>
   );
 }
-export default Home;
+export default HomeSection;

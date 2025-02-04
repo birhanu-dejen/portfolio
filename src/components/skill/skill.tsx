@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { skills } from "../../data/skills";
 import AnimatedWrapper from "../../utils/animatedWarpper";
-function Skills() {
+function SkillSection() {
   return (
     <AnimatedWrapper>
       <section id="Skills" className="pb-20 pt-3">
@@ -47,4 +47,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default SkillSection;

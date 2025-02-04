@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface IProject {
   title: string;
   description?: string;
@@ -17,10 +19,16 @@ export interface IbasicInfo {
   linkdin: string;
   upwork: string;
 }
-export interface IworkExpreiance {
+export interface IworkExpreience {
   company: string;
   startDate: string;
   position: string;
   endDate: string;
   bulletPoints: string[];
+}
+export interface AnimatedWrapperProps {
+  children: ReactNode;
+  duration?: number;
+  ease?: string;
+  y?: number;
 }

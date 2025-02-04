@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-
-const AnimatedWrapper = ({ children }) => {
+import { AnimatedWrapperProps } from "../data/types";
+const AnimatedWrapper = ({ children }: AnimatedWrapperProps) => {
   return (
     <motion.div
       variants={{
@@ -9,9 +9,8 @@ const AnimatedWrapper = ({ children }) => {
           opacity: 1,
           y: 0,
           transition: {
-            duration: 0.5,
+            duration: 1,
             ease: "easeInOut",
-            // delay: 0.25,
           },
         },
       }}
