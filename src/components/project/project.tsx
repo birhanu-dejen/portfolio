@@ -15,7 +15,7 @@ function Project() {
           ))}
         </div>
         <div className=" p-4 flex items-center justify-center">
-          <button className="text-black font-[100px] text-[18px] hover:text-blue-900">
+          <button className="text-black font-[100px] text-[18px] hover:text-blue-700">
             show more
           </button>
         </div>
