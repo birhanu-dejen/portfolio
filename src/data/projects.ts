@@ -1,33 +1,33 @@
 import adminImg from "../assets/abAdmin.png";
 import userImg from "../assets/abUser.png";
-import finovoImg from "../assets/finovo.png";
+import coinQuest from "../assets/CoinQuest.png";
 import { IProject } from "./types";
 export const projects: IProject[] = [
   {
-    title: "eCComerce ",
+    title: "eCommerce –  ultimate electronics marketplace.",
     description:
-      "a digital platform that facilitates online buying and selling of goods and services.",
+      "A modern digital platform for purchasing electronics, providing a quick, secure, and easy-to-use experience.",
     image: userImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
-    previewLink: "https://",
+    previewLink: "deployed onrender.com",
     githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-user-MERN",
   },
   {
-    title: "Admin Dashboard",
+    title: " Dashboard - Take control of your digital realm.",
     description:
-      "a web-based interface designed for administrators to manage, monitor, and control various aspects of a website.",
+      "A web-based interface designed for administrators to effortlessly manage, monitor, and optimize every aspect of a website.",
     image: adminImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
-    previewLink: "https://",
+    previewLink: "deployed onrender.com",
     githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-admin-MERN",
   },
   {
-    title: "Finovo - Personal Finance Planner",
+    title: "CoinQuest – Turn money management into an adventure.",
     description:
       "A personal finance planning, budgeting and management platform",
-    image: finovoImg,
+    image: coinQuest,
     tech: ["React", "Next.Js", "GraphQL", "Postgres"],
-    previewLink: "",
-    githubLink: "",
+    previewLink: "deployed  onrender.com",
+    githubLink: "comming soon",
   },
 ];

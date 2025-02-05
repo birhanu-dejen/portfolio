@@ -10,7 +10,7 @@ function ExperienceCard({ experience }: ExperienceCardProps) {
 
   return (
     <AnimatedWrapper>
-      <div className="flex flex-col flex-start pt-3 text-neutral-950 shadow-sm font-[300]">
+      <div className="flex flex-col flex-start pt-3 text-black shadow-sm">
         <div className="flex-start flex items-center pt-3">
           <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-500"></div>
           <time className="text-sm pb-2" dateTime={`${startDate}/${endDate}`}>
@@ -23,7 +23,7 @@ function ExperienceCard({ experience }: ExperienceCardProps) {
             {company} - {position}
           </h4>
 
-          <ul className="list-outside list-disc px-4 space-y-2 pb-8 text-justify font-[100]">
+          <ul className="list-outside list-disc px-4 space-y-2 pb-8 text-justify font-[400] lg:font-[250]">
             {bulletPoints.map((point: string, i: number) => (
               <li key={i}>{point}</li>
             ))}

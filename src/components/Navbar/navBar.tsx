@@ -9,18 +9,22 @@ function NavSection() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <section className="sticky top-0 z-10 py-3 bg-white shadow-md">
+    <section className="sticky top-0 z-10 py-3 bg-white ">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <div className="ml-4 lg:ml-9 mt-2">
-          <div className="w-64 text-xl font-thin">Birhanu Dejen Mulu</div>
-          <div className="w-64 text-sm font-light">Fullstack Developer</div>
+        <div className="ml-4 lg:ml-9 mt-2 ">
+          <div className="text-sm font-thin lg:text-lg mb-2">
+            Birhanu Dejen Mulu
+          </div>
+          <div className="text-sm font-light">Fullstack Developer</div>
         </div>
 
         <button
           className="text-3xl text-blue-900 cursor-pointer block lg:hidden"
           onClick={toggleMenu}
         >
-          <i className={`bx ${isMobileMenuOpen ? "bx-x" : "bx-menu"}`}></i>
+          <i
+            className={`bx ${isMobileMenuOpen ? "bx-x flex " : "bx-menu"}`}
+          ></i>
         </button>
 
         <div

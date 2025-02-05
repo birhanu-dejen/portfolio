@@ -7,10 +7,10 @@ function SkillSection() {
       <section id="Skills" className="pb-20 pt-3">
         <div className="container px-4 mx-auto">
           <h1 className="text-2xl font-semibold">Skills</h1>
-          <div className="text-justify mb-4 text-lg">
-            I have expertise in technologies such as React, Node, Python, and I
-            also have experience in other tech stacks. I am always eager to
-            learn new technologies.
+          <div className="text-justify mb-4 text-lg text-black font-[400] lg:font-light">
+            I have a solid foundation in technologies such as React, Node,
+            Python, and I also have experience in other tech stacks. I am always
+            eager to learn new technologies.
           </div>
           <div className="flex flex-row justify-between">
             {skills.map((skill, index) => (
