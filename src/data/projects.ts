@@ -10,7 +10,7 @@ export const projects: IProject[] = [
     image: userImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://abstore-user.onrender.com/",
-    githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-user-MERN",
+    githubLink: "https://github.com/birhanu-dejen/ABStore-user",
   },
   {
     title: " Dashboard - Take control of your digital realm.",
@@ -18,8 +18,8 @@ export const projects: IProject[] = [
       "A web-based interface designed for administrators to effortlessly manage, monitor, and optimize every aspect of a website.",
     image: adminImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
-    previewLink: "",
-    githubLink: "https://abstore-admin.onrender.com/",
+    previewLink: "https://abstore-admin.onrender.com/",
+    githubLink: "https://github.com/birhanu-dejen/ABStore-admin",
   },
   {
     title: "CoinQuest – Turn money management into an adventure.",
