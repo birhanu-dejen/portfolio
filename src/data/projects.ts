@@ -9,7 +9,7 @@ export const projects: IProject[] = [
       "A modern digital platform for purchasing electronics, providing a quick, secure, and easy-to-use experience.",
     image: userImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
-    previewLink: "deployed onrender.com",
+    previewLink: "https://abstore-user.onrender.com/",
     githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-user-MERN",
   },
   {
@@ -18,8 +18,8 @@ export const projects: IProject[] = [
       "A web-based interface designed for administrators to effortlessly manage, monitor, and optimize every aspect of a website.",
     image: adminImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
-    previewLink: "deployed onrender.com",
-    githubLink: "https://github.com/birhanu-dejen/AB-ECommerce-admin-MERN",
+    previewLink: "",
+    githubLink: "https://abstore-admin.onrender.com/",
   },
   {
     title: "CoinQuest – Turn money management into an adventure.",
