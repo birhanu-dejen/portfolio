@@ -1,8 +1,17 @@
 import adminImg from "../assets/abAdmin.png";
 import userImg from "../assets/abUser.png";
-import coinQuest from "../assets/CoinQuest.png";
+import RasDashenImg from "../assets/rasDashenImg.png";
 import { IProject } from "./types";
 export const projects: IProject[] = [
+  {
+    title: " Ras Dashen Retreats - Luxury Mountain Cabin",
+    description:
+      "A mountain-side cabin booking and nature retreat platform for unforgettable getaways in Ethiopia’s iconic Simien Mountains.",
+    image: RasDashenImg,
+    tech: ["Next.js", "Tailwind CSS", "supabase"],
+    previewLink: "https://ras-dashen-retreats.vercel.app/",
+    githubLink: "https://github.com/birhanu-dejen/Ras-Dashen-Retreats.",
+  },
   {
     title: "eCommerce –  ultimate electronics marketplace.",
     description:
@@ -20,14 +29,5 @@ export const projects: IProject[] = [
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://abstore-admin.onrender.com/",
     githubLink: "https://github.com/birhanu-dejen/ABStore-admin",
-  },
-  {
-    title: "CoinQuest – Turn money management into an adventure.",
-    description:
-      "A personal finance planning, budgeting and management platform",
-    image: coinQuest,
-    tech: ["React", "Next.Js", "GraphQL", "Postgres"],
-    previewLink: "deployed  onrender.com",
-    githubLink: "comming soon",
   },
 ];

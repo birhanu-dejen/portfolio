@@ -9,7 +9,10 @@ export const skills: ISkill[] = [
     name: "NodeJs",
     icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
   },
-
+  {
+    name: "Next.js",
+    icon: "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg",
+  },
   {
     name: "Mongo DB",
     icon: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
