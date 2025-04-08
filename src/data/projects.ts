@@ -24,7 +24,7 @@ export const projects: IProject[] = [
   {
     title: " Dashboard - Take control of your digital realm.",
     description:
-      "A web-based interface designed for administrators to effortlessly manage, monitor, and optimize every aspect of a website.",
+      "An  interface designed for administrators to manage, monitor, and optimize every aspect of an ecommerce website.",
     image: adminImg,
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://abstore-admin.onrender.com/",
