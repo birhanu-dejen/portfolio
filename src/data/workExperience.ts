@@ -1,6 +1,6 @@
-import { IworkExpreience } from "./types";
+import { ExperienceItem } from "./types";
 
-const workExperience: IworkExpreience[] = [
+export const workExperience: ExperienceItem[] = [
   {
     company: "ABStrore",
     position: "Backend Developer",
@@ -13,5 +13,3 @@ const workExperience: IworkExpreience[] = [
     ],
   },
 ];
-
-export default workExperience;

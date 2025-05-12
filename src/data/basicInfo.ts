@@ -1,7 +1,10 @@
-export const basicInfo = {
-  phone: "+251903802215",
+import { BasicInfo } from "./types";
+
+export const basicInfo: BasicInfo = {
+  name: "Birhanu Dejen",
+  title: "Full-stack Software Developer",
+
   email: "birhanudejen617@gmail.com",
-  linkedin: "birhanu-dejen",
-  github: "birhanu-dejen",
-  upwork: "0127deac290a5cccb2",
+  linkedin: "https://linkedin.com/in/birhanu-dejen",
+  github: "https://github.com/birhanu-dejen",
 };

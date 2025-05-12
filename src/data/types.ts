@@ -1,6 +1,26 @@
-import { ReactNode } from "react";
+export interface BasicInfo {
+  name: string;
+  title: string;
 
-export interface IProject {
+  email: string;
+  linkedin?: string;
+  github?: string;
+}
+
+export interface Skill {
+  name: string;
+  icon: string;
+}
+
+export interface ExperienceItem {
+  company: string;
+  position: string;
+  startDate: string;
+  endDate: string;
+  bulletPoints: string[];
+}
+
+export interface Project {
   title: string;
   description?: string;
   tech?: string[];
@@ -8,27 +28,10 @@ export interface IProject {
   image?: string;
   githubLink?: string;
 }
-export interface ISkill {
-  name: string;
-  icon: string;
-}
-export interface IbasicInfo {
-  phone: string;
-  email: string;
-  github: string;
-  linkdin: string;
-  upwork: string;
-}
-export interface IworkExpreience {
-  company: string;
-  startDate: string;
-  position: string;
-  endDate: string;
-  bulletPoints: string[];
-}
-export interface AnimatedWrapperProps {
-  children: ReactNode;
-  duration?: number;
-  ease?: string;
-  y?: number;
+
+export interface Profile {
+  basicInfo: BasicInfo;
+  skills: Skill[];
+  workExperience: ExperienceItem[];
+  projects: Project[];
 }

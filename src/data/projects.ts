@@ -1,13 +1,17 @@
-import adminImg from "../assets/abAdmin.png";
-import userImg from "../assets/abUser.png";
-import RasDashenImg from "../assets/rasDashenImg.png";
-import { IProject } from "./types";
-export const projects: IProject[] = [
+export const projects = [
+  {
+    title: "Felege Hiowot - E-learning Platform",
+    description: "A   platform offering Orthodox Christian courses",
+    image: "https://ik.imagekit.io/WorkGallery/portfolio/felegehiwot.png",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "postgresql", "Nest.js"],
+    previewLink: "https://felegehiowot.vercel.app/",
+    githubLink: "https://github.com/birhanu-dejen/felege-next",
+  },
   {
     title: " Ras Dashen Retreats - Luxury Mountain Cabin",
     description:
-      "A mountain-side cabin booking and nature retreat platform for unforgettable getaways in Ethiopia’s iconic Simien Mountains.",
-    image: RasDashenImg,
+      "A serene cabin booking platform for unforgettable retreats in Ethiopia’s Simien Mountains.",
+    image: "https://ik.imagekit.io/WorkGallery/portfolio/rasdashen.png",
     tech: ["Next.js", "Tailwind CSS", "supabase"],
     previewLink: "https://ras-dashen-retreats.vercel.app/",
     githubLink: "https://github.com/birhanu-dejen/Ras-Dashen-Retreats.",
@@ -15,8 +19,8 @@ export const projects: IProject[] = [
   {
     title: "eCommerce –  ultimate electronics marketplace.",
     description:
-      "A modern digital platform for purchasing electronics, providing a quick, secure, and easy-to-use experience.",
-    image: userImg,
+      "A modern platform to buy electronics quickly, securely, and easily.",
+    image: "https://ik.imagekit.io/WorkGallery/portfolio/abUser.png",
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://abstore-user.onrender.com/",
     githubLink: "https://github.com/birhanu-dejen/ABStore-user",
@@ -24,8 +28,8 @@ export const projects: IProject[] = [
   {
     title: " Dashboard - Take control of your digital realm.",
     description:
-      "An  interface designed for administrators to manage, monitor, and optimize every aspect of an ecommerce website.",
-    image: adminImg,
+      "An admin dashboard to manage, monitor, and optimize your eCommerce site.",
+    image: "https://ik.imagekit.io/WorkGallery/portfolio/abAdmin.png",
     tech: ["React", "tailwind css", "Node js", "mongodb", "Express"],
     previewLink: "https://abstore-admin.onrender.com/",
     githubLink: "https://github.com/birhanu-dejen/ABStore-admin",
