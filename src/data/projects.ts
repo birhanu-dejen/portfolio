@@ -4,7 +4,7 @@ export const projects = [
     description: "A   platform offering Orthodox Christian courses",
     image: "https://ik.imagekit.io/WorkGallery/portfolio/felegehiwot.png",
     tech: ["Next.js", "Tailwind CSS", "TypeScript", "postgresql", "Nest.js"],
-    previewLink: "https://felegehiowot.vercel.app",
+    previewLink: "https://felegehiwot.vercel.app",
     githubLink: "https://github.com/birhanu-dejen/felege-next",
   },
   {
