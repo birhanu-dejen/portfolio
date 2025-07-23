@@ -16,13 +16,16 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
   return (
     <AnimatedScrollWrapper>
       <div className="rounded-lg border-solid border-[0.5px] border-gray-400  overflow-hidden flex flex-col md:hover:drop-shadow-lg cursor-pointer md:hover:shadow-xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px]">
-        <Image
-          urlEndpoint="https://ik.imagekit.io/WorkGallery/"
-          src={image ?? "/projects/"}
-          width={500}
-          height={500}
-          alt={title ?? "Project image"}
-        />
+        <div className="w-[500px] h-[500px] overflow-hidden">
+          <Image
+            urlEndpoint="https://ik.imagekit.io/WorkGallery/"
+            src={image ?? "/projects/"}
+            width={500}
+            height={500}
+            alt={title ?? "Project image"}
+            className="w-full h-full object-contain"
+          />
+        </div>
         <div className="flex-grow px-3 py-2 mb-auto">
           <div className="flex flex-row justify-between mb-2">
             <span className="font-semibold text-md">{title}</span>
