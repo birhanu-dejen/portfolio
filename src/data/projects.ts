@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "QuickViral - Telegram Mini App",
+    description:
+      "A Telegram Mini App that allows users to order and manage social media boosting services directly inside Telegram.",
+    image:
+      "https://ik.imagekit.io/WorkGallery/portfolio/Screenshot%202025-07-23%20121320.png?updatedAt=1753262092766",
+    tech: [
+      "Next.js",
+      "NestJS",
+      "Telegram API",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+    ],
+    previewLink: "https://t.me/SocialLiftProBot",
+    githubLink: "https://github.com/birhanu-dejen/boosterclient",
+  },
+  {
     title: "Felege Hiowot - E-learning Platform",
     description: "A   platform offering Orthodox Christian courses",
     image: "https://ik.imagekit.io/WorkGallery/portfolio/felegehiwot.png",
