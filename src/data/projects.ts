@@ -4,7 +4,7 @@ export const projects = [
     description:
       "A Telegram Mini App that allows users to order and manage social media boosting services directly inside Telegram.",
     image:
-      "https://ik.imagekit.io/WorkGallery/portfolio/Screenshot%202025-07-23%20121320.png?updatedAt=1753263158367",
+      "https://ik.imagekit.io/WorkGallery/portfolio/Screenshot%202025-07-28%20122411.png?updatedAt=1753695185296",
     tech: [
       "Next.js",
       "NestJS",
