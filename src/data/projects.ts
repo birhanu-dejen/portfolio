@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "Weyra Tutors - E-learning Platform",
+    description:
+      "A full-stack e-learning platform that connects tutors and parents. It enables secure tutor onboarding, course management, booking, and messaging between tutors and clients.",
+    image:
+      "https://ik.imagekit.io/WorkGallery/portfolio/Screenshot%202025-10-07%20183821.png?updatedAt=1760614685988",
+    tech: [
+      "Next.js",
+      "NestJS",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+      "JWT Authentication",
+    ],
+    previewLink: "https://tutour-web.vercel.app",
+    githubLink: "https://github.com/birhanu-dejen/tutour-web",
+  },
+  {
     title: "QuickViral - Telegram Mini App",
     description:
       "A Telegram Mini App that allows users to order and manage social media boosting services directly inside Telegram.",
