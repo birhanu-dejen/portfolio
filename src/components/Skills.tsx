@@ -32,9 +32,9 @@ export default function Skills({ skills }: SkillsProps) {
           <h2 className="text-2xl font-semibold">Skills</h2>
 
           <div className="text-justify mb-4 font-[100]">
-            I have expertise in technologies such as React, Node, Python, Java,
-            and I also have experience in other tech stacks. and always eager to
-            learn new technologies.
+            I have expertise in technologies such as next.js, React, nest.js
+            ,express.js Python, and I also have experience in other tech stacks.
+            and always eager to learn new technologies.
           </div>
 
           <div className="flex flex-row justify-between">
