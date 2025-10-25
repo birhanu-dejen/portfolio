@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Weyra Tutors - Hire a Tutor Online",
     description:
-      "A full-stack e-learning platform that connects tutors and parents. It enables secure tutor onboarding, course management, booking, and messaging between tutors and clients.",
+      "A full-stack tutoring marketplace that connects parents with verified tutors for in-person or online sessions.",
     image:
       "https://ik.imagekit.io/WorkGallery/portfolio/Screenshot%202025-10-07%20183821.png?updatedAt=1760614685988",
     tech: [
