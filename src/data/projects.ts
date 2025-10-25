@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Weyra Tutors - E-learning Platform",
+    title: "Weyra Tutors - Hire a Tutor Online",
     description:
       "A full-stack e-learning platform that connects tutors and parents. It enables secure tutor onboarding, course management, booking, and messaging between tutors and clients.",
     image:
